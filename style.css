@@ -2,3 +2,9 @@ body {
   font-family: 'Baumans', sans-serif;
 }
 
+body {
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  height: 100vh;            /* full height of viewport */
+}
