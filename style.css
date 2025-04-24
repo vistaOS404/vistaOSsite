@@ -1,10 +1,8 @@
 body {
-  font-family: 'Baumans', sans-serif;
-}
-
-body {
+  margin: 0; /* ← reset default spacing */
+  height: 100vh;
   display: flex;
-  justify-content: center;  /* horizontal */
-  align-items: center;      /* vertical */
-  height: 100vh;            /* full height of viewport */
+  justify-content: center;
+  align-items: center;
+  font-family: 'Baumans', sans-serif;
 }
